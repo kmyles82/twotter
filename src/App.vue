@@ -9,12 +9,12 @@
       </div>
     </nav>
 
-    <UserProfile />
+    <router-view/>
   </div>
 </template>
 
 <script>
-import UserProfile from "./components/UserProfile";
+// import UserProfile from "@/views/UserProfile";
 
 export default {
   name: "App",
@@ -29,7 +29,7 @@ export default {
     }
   },
   components: {
-    UserProfile,
+    // UserProfile,
   },
   // data() {
   //   return {
